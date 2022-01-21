@@ -1,31 +1,8 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import './index.css';
-// import App from './App';
-// import { store } from './app/store';
-// import { Provider } from 'react-redux';
-// //import * as serviceWorker from './serviceWorker';
-// import { render } from "react-dom";          //
-// import { BrowserRouter } from "react-router-dom";
-
-// const rootElement = document.getElementById("root");
-// render(<BrowserRouter>        
-
-//   <React.StrictMode>
-//     <Provider store={store}>
-//       <App />
-//     </Provider>
-//   </React.StrictMode>,
-  
-// </BrowserRouter>, rootElement); 
-
-
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { store } from './app/store';
+import store from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 
