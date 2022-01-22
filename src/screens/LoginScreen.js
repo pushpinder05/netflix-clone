@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './LoginScreen.css';
-import SignupScreen from './SignupScreen';
+import SignUpScreen from './SignupScreen';
 
 
 function LoginScreen() {
@@ -19,7 +19,7 @@ function LoginScreen() {
 
         <div className="loginScreen__body">
             {signIn ? (
-                <SignupScreen />
+                <SignUpScreen />
             ) : (
                 <>
                     <h1>Untitled films, TV programmes and more.</h1>

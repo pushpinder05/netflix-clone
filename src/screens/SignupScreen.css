@@ -46,3 +46,7 @@
   cursor: pointer;
   text-decoration: underline;
 }
+
+.signupScreen__extra {
+  margin-top: 10px;
+}

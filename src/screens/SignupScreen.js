@@ -44,6 +44,12 @@ function SignUpScreen() {
           <h4><span className="signupScreen__gray">New to Netflix? </span>
               <span className="signupScreen__link" onClick={register}>Sign Up now.</span>
           </h4>
+
+        <div className="signupScreen__extra">
+          <h6>Guest? use Email: elon@gmail.com Password: elon123</h6>
+          <h6>To <strong>Register</strong> - Type your Email, Password and then click on Sign Up now.</h6>
+        </div>
+          
       </form> 
   </div>
   );
